@@ -1,0 +1,47 @@
+.container {
+  width: 700px;
+  height: 320px;
+  display: grid;
+  grid-template-columns: 120px 200px 80px 80px 110px 10px;
+  grid-template-rows: 100px 150px;
+  gap: 10px;
+  padding: 25px;
+  background-color: #dbdeff;
+}
+.box1 {
+  grid-column: 1/2;
+  background-color: #d30557;
+}
+.box2 {
+  grid-column: 2/3;
+  background-color: #00aba5;
+}
+.box3 {
+  grid-column: 3/4;
+  background-color: #009a78;
+}
+.box4 {
+  grid-column: 4/5;
+  grid-row: 1 / last-line;
+  background-color: #2196d9;
+}
+.box5 {
+  grid-column: 5/6;
+  grid-row: 1 / last-line;
+  background-color: #1a6d9f;
+}
+.box6 {
+  grid-column: 6/7;
+  grid-row: 1 / last-line;
+  background-color: #5ac1fc;
+}
+.box7 {
+  grid-column: 1/2;
+  grid-row: 2 / last-line;
+  background-color: #ea6700;
+}
+.box8 {
+  grid-column: 2/4;
+  grid-row: 2 / last-line;
+  background-color: #ff8961;
+}
